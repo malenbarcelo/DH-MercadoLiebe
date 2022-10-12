@@ -310,9 +310,6 @@ button{
     
 }
 
-#name, #user, #address, #birth-date, #password, #password-valid, #login-user-name, #login-password{
-    width: 300px;
-}
 
 
 @media(min-width:768px){
