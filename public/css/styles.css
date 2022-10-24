@@ -435,6 +435,15 @@ button{
         .producto{
             margin: 5px
         }
+
+        .footer-flex{
+            display:flex;
+            flex-direction: row;           
+        }
+
+        .footer-div{
+            width: 25%
+        }
     
     
     }
