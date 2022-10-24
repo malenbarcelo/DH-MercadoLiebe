@@ -2,7 +2,7 @@ const express=require('express')
 const path = require('path')
 const app = express()
 const publicPath =  path.resolve('public')
-const APP_PORT = 3000
+const APP_PORT = process.env.PORT || 3000
 
 app.use(express.static(publicPath)) //le decimos que queremos la carpeta como un recurso de archivos estáticos
 
